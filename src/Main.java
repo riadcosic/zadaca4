@@ -76,13 +76,58 @@ public class Main {
         int result = main.sum(1,2);
         result=main.sum(1,2);
         System.out.println(result);
+        Scanner input = new Scanner(System.in);
+        //1.aa
+        //Napravite petlju koja ukoliko ima predefiniran neki broj u varijabli  "total"  koja je deklarisana prije while-a i koji je razlicit od nula
+        //While petlja ce traziti da unosite za svaki loop pozitivan broj.
+        //Ukoliko unesete negativan broj while petlja zavrsava.
+       /* int temporary;
+        int total=2;
+        while (total!=0)
+        {
+            System.out.println("Enter a positive number: ");
+            input.nextLine();
+            temporary = input.nextInt();
+            if (temporary > 0) {
+                continue;
+            }
+            else
+            {
+                return;
+            }  */
+
+            //1.aaa
+        //Napravite petlju koja ce za svaki ukljucujuci i za pocetni broj traziti da unosite za svaki loop pozitivan broj.
+        //Ukoliko unesete negativan broj while petlja zavrsava.
+
+          /*  int i = 0, enteredNumber;
+
+        do {
+            System.out.print("Enter a number :  ");
 
 
+            if (!input.hasNextInt()) {
+                System.out.println("Error! Please enter a number");
+                input.nextLine();
+                continue;
+            }
+            enteredNumber = input.nextInt();
+
+            if (enteredNumber > 0)
+            {
+
+                System.out.println(enteredNumber);
+            }
+            else
+            {
+               return;
+            }
+        } while (enteredNumber > 0);   */
 
 
     }
     int result;
-    //Metoda za dodavanje
+    //Metoda za sabiranje
     public int sum(int num1, int num2){
         result = num1+num2;
         return result;
